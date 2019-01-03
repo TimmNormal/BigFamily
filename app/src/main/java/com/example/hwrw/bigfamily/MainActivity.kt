@@ -2,6 +2,7 @@ package com.example.hwrw.bigfamily
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.hwrw.bigfamily.R.id.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -11,7 +12,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // Example of a call to a native method
-        sample_text.text = stringFromJNI()
     }
 
     /**
